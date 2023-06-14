@@ -1,0 +1,30 @@
+aactreveal uses third-party R packages which may be distributed under different
+licenses. We have listed all of these third party packages and their licenses
+below. However, the most up-to-date information can be found via inspecting
+the Imports field in the DESCRIPTION file.
+
+You must agree to the terms of these licenses, in addition to the gsDesign2
+source code license, in order to use this software.
+
+--------------------------------------------------
+Third party R packages listed by License type
+[Format: Name - URL]
+--------------------------------------------------
+
+MIT / X11 License (or adaptations) (https://www.opensource.org/licenses/MIT)
+  * dplyr - https://dplyr.tidyverse.org/LICENSE.html
+  * rvest - https://rvest.tidyverse.org/LICENSE.html
+  * selectr - https://cran.r-project.org/web/packages/selectr/LICENCE
+  * stringdist - https://cran.r-project.org/web/licenses/GPL-3
+  * stringr - https://stringr.tidyverse.org/LICENSE.html
+  * xml2 - https://xml2.r-lib.org/LICENSE.html
+  * readr - https://readr.tidyverse.org/LICENSE.html
+  * odbc - https://cran.r-project.org/web/packages/odbc/LICENSE
+  * rlang - https://rlang.r-lib.org/LICENSE.html
+  * purrr - https://purrr.tidyverse.org/LICENSE.html
+  * tidyr - https://tidyr.tidyverse.org/LICENSE.html
+
+Apache License (https://www.apache.org/licenses/)
+  * pins - https://pins.rstudio.com/LICENSE.html
+
+

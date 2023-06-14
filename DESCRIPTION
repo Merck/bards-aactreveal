@@ -1,0 +1,22 @@
+Package: aactreveal
+Type: Package
+Title: Extract Useful AACT (clinialtrials.gov) Information 
+Version: 0.1.0
+Author: Howard Baek [aut, cre], Thomas Jemielita [aut, cre]
+Maintainer: Howard Baek <howard.baek@merck.com>
+Description: This package provides various data loader and query functions to help 
+    explore the AACT (Aggregate Content of ClinicalTrials.gov) database. Key functionalities 
+    include: (1) Data loader functions, (2) Query treatment/condition/outcomes, 
+    (3) Web-scraping to find related terms of a given treatment/condition,
+    (4) Functions that generate analysis data sets for subsequent analyses.
+License: GPL (>=3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.0)
+Imports:
+  dplyr, rvest, selectr, stringdist, stringr, xml2, readr, odbc, rlang, purrr, tidyr, pins
+RoxygenNote: 7.2.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
